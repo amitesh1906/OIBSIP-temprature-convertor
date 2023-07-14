@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top right, aqua, rgb(4, 123, 187));
+}
+
+
+h1 {
+    color: white;
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+input {
+
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+select {
+    padding: 10px;
+    margin-top: 10px;
+
+
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media(max-width:560px) {
+    h1 {
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 0;
+    }
+
+    input {
+
+        padding: 5px;
+        margin-top: 10px;
+
+    }
+
+    select {
+        padding: 5px;
+        margin-top: 5px;
+
+
+    }
+
+}
